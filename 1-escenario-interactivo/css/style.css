@@ -13,47 +13,48 @@ height: 500px;
 background-color: blue;
 background-image: url(../img/bosque\ oficial.png);
 background-size: 750px 500px ;
-
+position: relative;
+min-width: 750px;
 }
 
 .nube{
-    width: 18%;
+    width: 160px;
     position: absolute;
-    left: 470px;
+    left: 30%;
 }
 
 .nube1{
-    width: 18%;
+    width: 160px;
     position: absolute;
-    left: 580px;
-    top: 100px;
+    left: 50%;
+    top: 15%;
 }
 
 
 .moneda{
-    width: 7%;
+    width: 80px;
     position: absolute;
-    left: 450px;
-    top: 380px;
+    left: 18%;
+    top: 74%;
 }
 .moneda1{
-    width: 7%;
+    width: 80px;
     position: absolute;
-    left: 640px;
-    top: 395px;
+    left: 45%;
+    top: 79%;
 }
 
 .moneda2{
-    width: 7%;
+    width: 80px;
     position: absolute;
-    left: 900px;
-    top: -10px;
+    left: 90%;
+    top: 0%;
 }
 .moneda3{
-    width: 7%;
+    width: 80px;
     position: absolute;
-    left: 890px;
-    top: 370px;
+    left: 85%;
+    top: 74%;
 }
 
 .score{

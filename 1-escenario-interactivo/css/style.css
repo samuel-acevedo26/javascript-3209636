@@ -16,6 +16,7 @@ background-image: url(../img/bosque\ oficial.png);
 background-size: 750px 500px ;
 position: relative;
 min-width: 750px;
+
 }
 
 .nube{
@@ -69,6 +70,7 @@ min-width: 750px;
     align-items: center;
     border: 4px solid white;
     color: black;
+    position: absolute;
 }
 .ardilla{
     height: 50px;
@@ -82,6 +84,8 @@ min-width: 750px;
     border: 4px solid white;
     color: white;
     font-size: 15px;
+    position: absolute;
+    top: 12%;
 }
 .saltar{
     animation: salto 0.6s ease forwards;
@@ -134,7 +138,7 @@ min-width: 750px;
 
 .cami1{
 position: absolute;
-
+width: 90px;
 top: 40%;
 
 }
@@ -143,6 +147,7 @@ top: 40%;
 position: absolute;
 top: 40%;
 left: 87%;
+width: 90px;
 
 }
 
@@ -192,6 +197,18 @@ left: 70%;
 
 
 
+.camima{
+    animation: camimo 3s linear infinite alternate;
+}
+
+
+
+
+@keyframes camimo {
+    0%{top: 0%;}
+    100%{top: 80%;}
+
+}
 
 
 
@@ -275,3 +292,23 @@ position: absolute;
 left: 20%;
 top: 30%;
 }
+
+
+.camima{
+    animation: camimo 3s linear infinite alternate;
+}
+
+
+.solecito{
+    animation: solo 3s linear infinite alternate;
+}
+
+
+
+
+@keyframes  solo {
+    0%{left: 80%;}
+    100%{left: 0%;}
+
+}
+

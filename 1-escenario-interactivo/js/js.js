@@ -5,6 +5,8 @@ const contador = document.querySelector(".score")
 const contar = document.querySelector(".score2")
 let i = 0
 let j = 0
+let y = 0
+let a = 0
 
 console.log(monedas)
 console.log(ardillas)
@@ -20,7 +22,7 @@ ardillas.forEach( item => {
 item.classList.add("saltar")
 
 j++
-contar.textContent = `SCORE = ${j}`
+contar.textContent = `ARDILLAS = ${j}`
 
     })
 
@@ -57,3 +59,73 @@ item.addEventListener("animationend", () => {
 
 
 
+
+
+
+const camisass = document.querySelectorAll(".cami")
+const contadorcami = document.querySelector(".scoremi")
+
+
+
+console.log(camisass)
+
+
+camisass.forEach( item => {
+    /* console.log("Elemento: ", item)
+     */
+
+    item.addEventListener("click", () => {
+item.classList.add("saltar")
+
+y++
+contadorcami.textContent = `CAMISAS = ${y}`
+
+    })
+
+
+
+item.addEventListener("animationend", () => {
+    item.style.display = "none"
+}, {once: true})
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+const aguilitas = document.querySelectorAll(".aguila")
+const coontaagui = document.querySelector(".scoreag")
+
+
+
+console.log(aguilitas)
+
+
+aguilitas.forEach( item => {
+    /* console.log("Elemento: ", item)
+     */
+
+    item.addEventListener("click", () => {
+item.classList.add("saltar")
+
+a++
+coontaagui.textContent = `AGUILAS = ${a}`
+
+    })
+
+
+
+item.addEventListener("animationend", () => {
+    item.style.display = "none"
+}, {once: true})
+
+})
